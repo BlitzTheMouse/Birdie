@@ -31,4 +31,9 @@ public class FlyBehaviour : MonoBehaviour
         currentRotation = Mathf.Lerp(currentRotation, -90f, tiltDownSpeed * Time.fixedDeltaTime);
         transform.rotation = Quaternion.Euler(0, 0, currentRotation);
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        GameManager.instance.GameOver();
+    }
 }
