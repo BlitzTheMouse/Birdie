@@ -548,7 +548,7 @@ GameObject:
   - component: {fileID: 6721116999721980978}
   - component: {fileID: 4973844820537395964}
   m_Layer: 0
-  m_Name: PipePrefab
+  m_Name: PipePrefabGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
