@@ -1,0 +1,28 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class FloatMotion : MonoBehaviour
+{
+    public float height = 1f;
+    public float speed = 1f;
+
+    private Vector3 startPos;
+    private float timer;
+
+    void Start()
+    {
+        startPos = transform.position;
+    }
+
+    void Update()
+    {
+        timer += Time.deltaTime * speed;
+
+        float t = (Mathf.Sin(timer) + 1f) / 2f;
+        float eased = Mathf.SmoothStep(0f, 1f, t);
+        float yOffset = Mathf.Lerp(-height, height, eased);
+
+        transform.position = startPos + new Vector3(0f, yOffset, 0f);
+    }
+}

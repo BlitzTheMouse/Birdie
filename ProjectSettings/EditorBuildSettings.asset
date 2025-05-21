@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 96580d380733cb749b5e6967fb1c4547
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Snow.unity
+    guid: c919e144968207040a6e1fe7c173f3ba
+  - enabled: 1
+    path: Assets/Scenes/Beach.unity
+    guid: da9c5ae3085b7b542b0845a744feb5a2
   m_configObjects: {}
