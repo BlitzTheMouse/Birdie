@@ -579,7 +579,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.47000122, y: -1758}
+  m_AnchoredPosition: {x: 0.4699707, y: -1808.8889}
   m_SizeDelta: {x: 1.03, y: 12.027}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &440984562
@@ -943,7 +943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   creditsPanel: {fileID: 440984560}
   moveDuration: 0.5
-  hiddenPosition: {x: 0, y: -1657, z: 0}
+  hiddenPosition: {x: 0, y: -1802.875, z: 0}
   shownPosition: {x: 0, y: 13, z: 0}
 --- !u!1 &1156016033
 GameObject:
@@ -1212,6 +1212,134 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241871494}
   m_CullTransparentMesh: 1
+--- !u!1 &1276599673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1276599675}
+  - component: {fileID: 1276599674}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1276599674
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276599673}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c16e094d6ab22a64a91aea3eee3f94b9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.7
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1276599675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276599673}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.0119667, y: 1.0096618, z: -0.13758947}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1338578403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2159,10 +2287,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Programming and Sprites (tilesets and birdie):\n Felipe Villarreal Jr\r\n\r\nPipe
-    Sprites: ImogiaGames \n(License: https://creativecommons.org/licenses/by/4.0/)\r\n\r\nUpheaval
-    font Created by: Brian Kent\r\n\n-Unity asset store credits-\n\nMusic: GWriterStudio\n\nSky
-    Sprites: Digital Moon\n\nSkyboxes: Borodar\n\r\n "
+  m_text: "-Programming and Sprites (tilesets and birdie):\n Felipe Villarreal Jr\r\n\r\n-Pipe
+    Sprites: ImogiaGames \n(License: https://creativecommons.org/licenses/by/4.0/)\r\n\r\n-Upheaval
+    font Created by: Brian Kent\r\n\n*Unity asset store credits*\n\n-Music: GWriterStudio\n-Sky
+    Sprites: Digital Moon\n-SFX: Brackeys\n-Skyboxes: Borodar\n\r\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
   m_sharedMaterial: {fileID: 5174179911869577873, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
@@ -2225,7 +2353,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -35.030693, y: -126.51135, z: -28.26838, w: -191.3323}
+  m_margin: {x: -35.030693, y: -126.51135, z: -28.26838, w: -195.33333}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2506,3 +2634,4 @@ SceneRoots:
   - {fileID: 1044080686}
   - {fileID: 960270334}
   - {fileID: 1484103152}
+  - {fileID: 1276599675}
