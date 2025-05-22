@@ -11,9 +11,9 @@ public class GroundLoop : MonoBehaviour
 
     void Start()
     {
-        SpawnGround(new Vector3(-12f, -5.5f, 0f));
+        SpawnGround(new Vector3(-11f, -5.5f, 0f));
         SpawnGround(new Vector3(3f, -5.5f, 0f));
-        SpawnGround(new Vector3(18f, -5.5f, 0f));
+        SpawnGround(new Vector3(17f, -5.5f, 0f));
 
 
         StartCoroutine(StartSpawningAfterDelay(spawnInterval));
