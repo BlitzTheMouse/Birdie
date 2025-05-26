@@ -239,7 +239,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 9792756a91382b24f86cba3bdff5d78a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 16b1b1784875b0445b3c0f800d9e6be9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   groundPrefab: {fileID: 1494501811205413334, guid: 5b6b78635066e184db682bb15b196340, type: 3}
   speed: 3
-  spawnInterval: 3
+  spawnInterval: 4
   destroyTime: 10
 --- !u!4 &415490323
 Transform:
@@ -600,7 +600,7 @@ Transform:
   m_GameObject: {fileID: 415490321}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -5.5, z: -10.03354}
+  m_LocalPosition: {x: 15.5, y: -5.5, z: -10.03354}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
