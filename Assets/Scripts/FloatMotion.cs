@@ -6,13 +6,16 @@ public class FloatMotion : MonoBehaviour
 {
     public float height = 1f;
     public float speed = 1f;
+    public AudioClip chirpClip;
 
     private Vector3 startPos;
     private float timer;
+    private AudioSource audioSource;
 
     void Start()
     {
         startPos = transform.position;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -24,5 +27,13 @@ public class FloatMotion : MonoBehaviour
         float yOffset = Mathf.Lerp(-height, height, eased);
 
         transform.position = startPos + new Vector3(0f, yOffset, 0f);
+    }
+
+    void OnMouseDown()
+    {
+        if (chirpClip != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(chirpClip);
+        }
     }
 }

@@ -8,42 +8,69 @@ public class Menu : MonoBehaviour
     public float moveDuration = 0.5f;
     public Vector3 hiddenPosition;
     public Vector3 shownPosition;
+    public AudioClip clickSound;
 
     private Coroutine moveCoroutine;
+    private AudioSource audioSource;
 
     void Start()
     {
         creditsPanel.transform.localPosition = hiddenPosition;
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    void PlayClickSound()
+    {
+        if (clickSound != null && audioSource != null)
+            audioSource.PlayOneShot(clickSound);
     }
 
     public void GrassButton()
     {
+        PlayClickSound();
         SceneManager.LoadScene("SampleScene");
     }
 
     public void BeachButton()
     {
+        PlayClickSound();
         SceneManager.LoadScene("Beach");
     }
 
     public void SnowButton()
     {
+        PlayClickSound();
         SceneManager.LoadScene("Snow");
     }
 
     public void LakeButton()
     {
+        PlayClickSound();
         SceneManager.LoadScene("Lake");
+    }
+
+    public void CanyonButton()
+    {
+        PlayClickSound();
+        SceneManager.LoadScene("Canyon");
+    }
+
+    public void TempleButton()
+    {
+        PlayClickSound();
+        SceneManager.LoadScene("Temple");
     }
 
     public void CreditsButton()
     {
+        PlayClickSound();
         if (moveCoroutine != null) StopCoroutine(moveCoroutine);
         moveCoroutine = StartCoroutine(MovePanel(creditsPanel, shownPosition));
     }
 
     public void CloseCredits()
     {
+        PlayClickSound();
         if (moveCoroutine != null) StopCoroutine(moveCoroutine);
         moveCoroutine = StartCoroutine(MovePanel(creditsPanel, hiddenPosition, disableAfter: true));
     }
@@ -61,6 +88,5 @@ public class Menu : MonoBehaviour
         }
 
         panel.transform.localPosition = targetPos;
-
     }
 }

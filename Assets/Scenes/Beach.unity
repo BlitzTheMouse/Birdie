@@ -853,6 +853,7 @@ GameObject:
   m_Component:
   - component: {fileID: 712442549}
   - component: {fileID: 712442548}
+  - component: {fileID: 712442550}
   m_Layer: 0
   m_Name: Background4
   m_TagString: Untagged
@@ -927,6 +928,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &712442550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712442547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.4
+  destroyX: -20
+  hasSpawnedInitial: 0
+  allowRespawn: 0
+  initialSpawnCount: 3
+  respawnCount: 2
 --- !u!1 &726631410
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799536497}
   - component: {fileID: 799536496}
+  - component: {fileID: 799536498}
   m_Layer: 0
   m_Name: Tile 1_0
   m_TagString: Untagged
@@ -1086,6 +1106,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &799536498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799536495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+  destroyX: -20
+  hasSpawnedInitial: 0
+  allowRespawn: 0
+  initialSpawnCount: 3
+  respawnCount: 2
 --- !u!1 &888964365
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1591,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1101565879}
   - component: {fileID: 1101565878}
+  - component: {fileID: 1101565880}
   m_Layer: 0
   m_Name: demo02_PixelSky_layer03
   m_TagString: Untagged
@@ -1606,7 +1645,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 10.55, y: 1.35}
+  m_Size: {x: 5, y: 1.35}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1627,6 +1666,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1101565880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101565877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.5
+  destroyX: -20
+  hasSpawnedInitial: 0
+  allowRespawn: 0
+  initialSpawnCount: 3
+  respawnCount: 2
 --- !u!1 &1104197200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1771,6 +1828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1126093500}
   - component: {fileID: 1126093499}
+  - component: {fileID: 1126093501}
   m_Layer: 0
   m_Name: GreenLand_0
   m_TagString: Untagged
@@ -1845,6 +1903,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1126093501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1126093498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1.5
+  destroyX: -30
+  hasSpawnedInitial: 0
+  allowRespawn: 0
+  initialSpawnCount: 3
+  respawnCount: 3
 --- !u!1 &1136076704
 GameObject:
   m_ObjectHideFlags: 0
@@ -2851,7 +2927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1981316601771687546, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6583070205894201316, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_LocalPosition.x
