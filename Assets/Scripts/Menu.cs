@@ -67,6 +67,12 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Sky");
     }
 
+    public void CityButton()
+    {
+        PlayClickSound();
+        SceneManager.LoadScene("City");
+    }
+
     public void QuitButton()
     {
         PlayClickSound();
