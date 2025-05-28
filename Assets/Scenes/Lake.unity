@@ -244,6 +244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 1777313348}
   hitSound: {fileID: 8300000, guid: 87e2452fe2c754248926c9a9ab93a467, type: 3}
+  clickSound: {fileID: 8300000, guid: 24d73765699ce3e46bb23cabc3a46494, type: 3}
 --- !u!4 &307913334
 Transform:
   m_ObjectHideFlags: 0
@@ -529,10 +530,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   destroyX: -20
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1 &415490321
 GameObject:
   m_ObjectHideFlags: 0
@@ -1560,6 +1558,8 @@ MonoBehaviour:
   maxTime: 1.7
   heightRange: 4.5
   thePipe: {fileID: 2848835360499209021, guid: 91842350dfd838f4f9ba0fbd7509003d, type: 3}
+  useRandomPipe: 0
+  pipeVariants: []
 --- !u!4 &1136076706
 Transform:
   m_ObjectHideFlags: 0
@@ -1674,10 +1674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 4
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1001 &1268294955
 PrefabInstance:
   m_ObjectHideFlags: 0

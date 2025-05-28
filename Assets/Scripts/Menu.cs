@@ -61,6 +61,18 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Temple");
     }
 
+    public void SkyButton()
+    {
+        PlayClickSound();
+        SceneManager.LoadScene("Sky");
+    }
+
+    public void QuitButton()
+    {
+        PlayClickSound();
+        Application.Quit();
+    }
+
     public void CreditsButton()
     {
         PlayClickSound();

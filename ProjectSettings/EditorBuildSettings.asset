@@ -20,4 +20,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lake.unity
     guid: 5e24948c43c0b4d4e8c80dfc3b0c6d97
+  - enabled: 1
+    path: Assets/Scenes/Canyon.unity
+    guid: 7401b9cbe418b7e45abe9c391ec37855
+  - enabled: 1
+    path: Assets/Scenes/Sky.unity
+    guid: a5365e924e1451c4c95272a1a611af5e
+  - enabled: 1
+    path: Assets/Scenes/Temple.unity
+    guid: e8f30a660c4ecc14193df5f9cb33bbc7
   m_configObjects: {}

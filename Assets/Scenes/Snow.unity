@@ -311,10 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3.1
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 4
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1 &307913332
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,6 +344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 1777313348}
   hitSound: {fileID: 8300000, guid: 87e2452fe2c754248926c9a9ab93a467, type: 3}
+  clickSound: {fileID: 8300000, guid: 24d73765699ce3e46bb23cabc3a46494, type: 3}
 --- !u!4 &307913334
 Transform:
   m_ObjectHideFlags: 0
@@ -1432,6 +1430,8 @@ MonoBehaviour:
   maxTime: 1.8
   heightRange: 3
   thePipe: {fileID: 2848835360499209021, guid: 87d7e8b23cd856641a51bf2ae2c678f1, type: 3}
+  useRandomPipe: 0
+  pipeVariants: []
 --- !u!4 &1136076706
 Transform:
   m_ObjectHideFlags: 0
@@ -1546,10 +1546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 4
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1001 &1268294955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1838,10 +1835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 4
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1001 &1490975173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2326,7 +2320,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.89, y: 3.16, z: 0}
-  m_LocalScale: {x: 4.431175, y: 4.431175, z: 4.431175}
+  m_LocalScale: {x: 5.007228, y: 4.431175, z: 4.431175}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2345,10 +2339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1 &1766799820
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,10 +3020,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1001 &404835431096291000
 PrefabInstance:
   m_ObjectHideFlags: 0

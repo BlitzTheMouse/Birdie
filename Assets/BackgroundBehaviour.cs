@@ -4,59 +4,39 @@ public class BackgroundBehaviour : MonoBehaviour
 {
     public float speed = 2f;
     public float destroyX = -20f;
-    public bool hasSpawnedInitial = false;
-    public bool allowRespawn = false;
-    public int initialSpawnCount = 3;
-    public int respawnCount = 2;
+    public int spawnCount = 1;
 
     private float width;
+    private bool hasSpawned = false;
 
     void Start()
     {
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-
-        if (sr != null)
-            width = sr.bounds.size.x;
-        else
-            width = 1f;
-
-        if (!hasSpawnedInitial)
-        {
-            hasSpawnedInitial = true;
-
-            for (int i = 1; i <= initialSpawnCount; i++)
-            {
-                Vector3 spawnPos = transform.position + Vector3.right * width * i;
-
-                GameObject clone = Instantiate(gameObject, spawnPos, transform.rotation);
-                clone.GetComponent<BackgroundBehaviour>().hasSpawnedInitial = true;
-                clone.GetComponent<BackgroundBehaviour>().allowRespawn = true;
-                clone.GetComponent<BackgroundBehaviour>().initialSpawnCount = initialSpawnCount;
-                clone.GetComponent<BackgroundBehaviour>().respawnCount = respawnCount;
-            }
-        }
+        width = sr != null ? sr.bounds.size.x : 1f;
     }
 
     void Update()
     {
         transform.position += Vector3.left * speed * Time.deltaTime;
 
-        if (transform.position.x <= destroyX)
+        if (!hasSpawned && transform.position.x <= 0f)
         {
-            if (allowRespawn)
-            {
-                for (int i = 1; i <= respawnCount; i++)
-                {
-                    Vector3 spawnPos = transform.position + Vector3.right * width * i;
+            Vector3 spawnPos = new Vector3(transform.position.x + width, transform.position.y, transform.position.z);
 
-                    GameObject clone = Instantiate(gameObject, spawnPos, transform.rotation);
-                    clone.GetComponent<BackgroundBehaviour>().hasSpawnedInitial = true;
-                    clone.GetComponent<BackgroundBehaviour>().allowRespawn = true;
-                    clone.GetComponent<BackgroundBehaviour>().initialSpawnCount = initialSpawnCount;
-                    clone.GetComponent<BackgroundBehaviour>().respawnCount = respawnCount;
-                }
+            for (int i = 0; i < spawnCount; i++)
+            {
+                GameObject clone = Instantiate(gameObject, spawnPos, transform.rotation);
+                clone.GetComponent<BackgroundBehaviour>().spawnCount = spawnCount;
+                clone.GetComponent<BackgroundBehaviour>().hasSpawned = false;
+
+                spawnPos.x += width;
             }
 
+            hasSpawned = true;
+        }
+
+        if (transform.position.x + width < destroyX)
+        {
             Destroy(gameObject);
         }
     }

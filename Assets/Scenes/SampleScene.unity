@@ -311,10 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   destroyX: -20
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1 &178094370
 GameObject:
   m_ObjectHideFlags: 0
@@ -414,10 +411,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   destroyX: -30
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1 &307913332
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,6 +444,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 1777313348}
   hitSound: {fileID: 8300000, guid: 87e2452fe2c754248926c9a9ab93a467, type: 3}
+  clickSound: {fileID: 8300000, guid: 24d73765699ce3e46bb23cabc3a46494, type: 3}
 --- !u!4 &307913334
 Transform:
   m_ObjectHideFlags: 0
@@ -783,10 +778,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   destroyX: -20
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 2
+  spawnCount: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1638,6 +1630,8 @@ MonoBehaviour:
   maxTime: 2
   heightRange: 3
   thePipe: {fileID: 2848835360499209021, guid: 51b4ee42a3976524d8e7f4739046ad7b, type: 3}
+  useRandomPipe: 0
+  pipeVariants: []
 --- !u!4 &1136076706
 Transform:
   m_ObjectHideFlags: 0
@@ -1813,10 +1807,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   destroyX: -20
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 4
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1 &1483174045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,10 +1907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2.2
   destroyX: -15
-  hasSpawnedInitial: 0
-  allowRespawn: 0
-  initialSpawnCount: 3
-  respawnCount: 3
+  spawnCount: 1
 --- !u!1001 &1490975173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2946,7 +2934,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1981316601771687546, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6583070205894201316, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_LocalPosition.x

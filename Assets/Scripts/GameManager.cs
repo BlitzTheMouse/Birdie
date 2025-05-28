@@ -8,11 +8,10 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     private AudioSource audioSource;
 
-
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private AudioClip hitSound;
+    [SerializeField] private AudioClip clickSound;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (instance == null)
@@ -23,13 +22,10 @@ public class GameManager : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     public void GameOver()
     {
         gameOverPanel.SetActive(true);
         audioSource.PlayOneShot(hitSound);
-
-
         Time.timeScale = 0f;
     }
 
@@ -42,10 +38,17 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-
     public void ToTheMainMenu()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("MainMenu");
+    }
+
+    public void PlayClickSound()
+    {
+        if (audioSource != null && clickSound != null)
+        {
+            audioSource.PlayOneShot(clickSound);
+        }
     }
 }
