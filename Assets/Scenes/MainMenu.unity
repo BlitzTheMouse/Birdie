@@ -2259,7 +2259,7 @@ Transform:
   m_GameObject: {fileID: 1276599673}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0119667, y: 1.0096618, z: -0.13758947}
+  m_LocalPosition: {x: 0, y: 1.0096618, z: -0.13758947}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3618,10 +3618,10 @@ MonoBehaviour:
       m_Calls: []
   m_text: "-Programming and Sprites (tilesets and birdie):\n Felipe Villarreal Jr\r\n\r\n-Pipe
     Sprites: ImogiaGames \n(License: https://creativecommons.org/licenses/by/4.0/)\r\n\n-Canyon
-    BG Sprite: TheRustyArt\n-Upheaval font Created by: Brian Kent\r\n\n*Unity asset
-    store credits*\n\n-Music: GWriterStudio\n-Sky Sprites: Digital Moon\n-SFX: Brackeys\n-Skyboxes:
-    Borodar\n-Canyon BG: TheRustyArt\n-City BG: Craftpix.Net \n-Tutorial Followed
-    for Main Gameplay: Sasquach B Studios\n\nThanks for Playing!!!\n "
+    BG Sprite: TheRustyArt\n-Upheaval font Created by: Brian Kent\r\n\n-Music: GWriterStudio\n-Sky
+    Sprites: Digital Moon\n-SFX: Brackeys\n-Skyboxes: Borodar\n-Canyon BG: TheRustyArt\n-City
+    BG: Craftpix.Net \n-Tutorial Followed for Main Gameplay: Sasquach B Studios\n\nThanks
+    for Playing!!!\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
   m_sharedMaterial: {fileID: 5174179911869577873, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
@@ -3975,7 +3975,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2012683970}
   - component: {fileID: 2012683969}
-  - component: {fileID: 2012683968}
+  - component: {fileID: 2012683971}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3983,14 +3983,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &2012683968
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2012683967}
-  m_Enabled: 1
 --- !u!20 &2012683969
 Camera:
   m_ObjectHideFlags: 0
@@ -4057,6 +4049,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!81 &2012683971
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012683967}
+  m_Enabled: 1
 --- !u!1 &2052520696
 GameObject:
   m_ObjectHideFlags: 0
