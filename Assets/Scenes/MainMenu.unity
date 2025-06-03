@@ -428,7 +428,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   height: 0.3
   speed: 0.5
-  chirpClip: {fileID: 8300000, guid: 5fca40f556f28b347aba50c6d25bbf82, type: 3}
+  chirpClip: {fileID: 8300000, guid: 1daac46645c9a0f4d9507992d4c2595c, type: 3}
 --- !u!1 &337210193
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,9 +3619,9 @@ MonoBehaviour:
   m_text: "-Programming and Sprites (tilesets and birdie):\n Felipe Villarreal Jr\r\n\r\n-Pipe
     Sprites: ImogiaGames \n(License: https://creativecommons.org/licenses/by/4.0/)\r\n\n-Canyon
     BG Sprite: TheRustyArt\n-Upheaval font Created by: Brian Kent\r\n\n-Music: GWriterStudio\n-Sky
-    Sprites: Digital Moon\n-SFX: Brackeys\n-Skyboxes: Borodar\n-Canyon BG: TheRustyArt\n-City
-    BG: Craftpix.Net \n-Tutorial Followed for Main Gameplay: Sasquach B Studios\n\nThanks
-    for Playing!!!\n "
+    Sprites: Digital Moon\n-SFX: Brackeys, Sample Focus\n-Skyboxes: Borodar\n-Canyon
+    BG: TheRustyArt\n-City BG: Craftpix.Net \n-Tutorial Followed for Main Gameplay:
+    Sasquach B Studios\n\nThanks for Playing!!!\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
   m_sharedMaterial: {fileID: 5174179911869577873, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
