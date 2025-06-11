@@ -239,7 +239,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 16b1b1784875b0445b3c0f800d9e6be9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 35967e8a4dfb1664e9b066939272c0a4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -960,7 +960,7 @@ MonoBehaviour:
   objectsToSpawn:
   - {fileID: 1019540112}
   spawnInterval: 6
-  moveSpeed: 2
+  moveSpeed: 3.1
   timer: 0
 --- !u!4 &702792532
 Transform:
@@ -1609,7 +1609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270, y: 740}
+  m_AnchoredPosition: {x: -258.7, y: 613.7042}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965782625
@@ -1927,7 +1927,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 64, y: 781.1111}
+  m_AnchoredPosition: {x: 64, y: 661.00543}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1104197202
@@ -2267,7 +2267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3.1
   destroyX: -20
   spawnCount: 1
 --- !u!212 &1298878775
@@ -2369,7 +2369,7 @@ MonoBehaviour:
   objectsToSpawn:
   - {fileID: 601116178}
   spawnInterval: 7.5
-  moveSpeed: 2
+  moveSpeed: 3.1
   timer: 0
 --- !u!4 &1309963315
 Transform:
@@ -2690,7 +2690,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269.55554, y: 740}
+  m_AnchoredPosition: {x: 269.55554, y: 619.89435}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665456826
@@ -2824,7 +2824,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270, y: 781.1111}
+  m_AnchoredPosition: {x: -260, y: 659.7042}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1766799822
@@ -3284,7 +3284,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1981316601771687546, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6583070205894201316, guid: 40176bb3f287e1c43b15208cc6c0677c, type: 3}
       propertyPath: m_LocalPosition.x
