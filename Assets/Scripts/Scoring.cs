@@ -21,7 +21,7 @@ public class Scoring : MonoBehaviour
             instance = this;
         }
     }
-    // Start is called before the first frame update
+
     private void Start()
     {
         currentScoreText.text = score.ToString();
