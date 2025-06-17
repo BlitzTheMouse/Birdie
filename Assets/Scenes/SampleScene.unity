@@ -1797,7 +1797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxTime: 2
   heightRange: 3
-  thePipe: {fileID: 2848835360499209021, guid: 51b4ee42a3976524d8e7f4739046ad7b, type: 3}
+  thePipe: {fileID: 2848835360499209021, guid: 9a0ee486867565943aaf9b4d8e0462f4, type: 3}
   useRandomPipe: 0
   pipeVariants: []
 --- !u!4 &1136076706
@@ -1846,7 +1846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectsToSpawn:
   - {fileID: 1089106221}
-  spawnInterval: 6
+  spawnInterval: 7
   moveSpeed: 3
   timer: 0
 --- !u!4 &1148716729

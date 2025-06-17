@@ -3616,12 +3616,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "-Programming and Sprites (tilesets and birdie):\n Felipe \"Blitz\" Villarreal\r\n\r\n-Pipe
-    Sprites: ImogiaGames \n(License: https://creativecommons.org/licenses/by/4.0/)\r\n\n-Canyon
-    BG Sprite: TheRustyArt\n-Upheaval font Created by: Brian Kent\r\n\n-Music: GWriterStudio\n-Sky
-    Sprites: Digital Moon\n-SFX: Brackeys, Sample Focus\n-Skyboxes: Borodar\n-Canyon
-    BG: TheRustyArt\n-City BG: Craftpix.Net \n-Tutorial Followed for Main Gameplay:
-    Sasquach B Studios\n\nThanks for Playing!!!\n "
+  m_text: "-Programming and Sprites (tilesets, obstacles, birdie):\n Felipe \"Blitz\"
+    Villarreal\r\n\r\n\n-Canyon BG Sprite: TheRustyArt\n-Upheaval font Created by:
+    Brian Kent\r\n\n-Music: GWriterStudio\n-Sky Sprites: Digital Moon\n-SFX: Brackeys,
+    Sample Focus\n-Skyboxes: Borodar\n-Canyon BG: TheRustyArt\n-City BG: Craftpix.Net
+    \n-Tutorial Followed for Main Gameplay: Sasquach B Studios\n\nThanks for Playing!!!\n "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
   m_sharedMaterial: {fileID: 5174179911869577873, guid: 0b9f27a861328ee439f9b5fba07dc830, type: 2}
@@ -3648,8 +3647,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.9
-  m_fontSizeBase: 17.9
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3684,7 +3683,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -35.030693, y: -204.10948, z: -28.26838, w: -214.2666}
+  m_margin: {x: -35.030693, y: -201.73485, z: -28.26838, w: -214.2666}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

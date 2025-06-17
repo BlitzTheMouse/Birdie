@@ -1757,15 +1757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxTime: 1.7
   heightRange: 3
-  thePipe: {fileID: 2848835360499209021, guid: 91842350dfd838f4f9ba0fbd7509003d, type: 3}
-  useRandomPipe: 1
-  pipeVariants:
-  - {fileID: 2848835360499209021, guid: 87d7e8b23cd856641a51bf2ae2c678f1, type: 3}
-  - {fileID: 2848835360499209021, guid: 51b4ee42a3976524d8e7f4739046ad7b, type: 3}
-  - {fileID: 2848835360499209021, guid: 91842350dfd838f4f9ba0fbd7509003d, type: 3}
-  - {fileID: 2848835360499209021, guid: fa60fb101da75f0419c2b7d6567f6e94, type: 3}
-  - {fileID: 2848835360499209021, guid: cb5510119ba5e734f9b2908403c668dd, type: 3}
-  - {fileID: 2848835360499209021, guid: 4b3c5123c72baf14d93330cba22fb996, type: 3}
+  thePipe: {fileID: 2848835360499209021, guid: 8e5c98539fc53da4d8f9ab2031a08a4d, type: 3}
+  useRandomPipe: 0
+  pipeVariants: []
 --- !u!4 &1136076706
 Transform:
   m_ObjectHideFlags: 0

@@ -1858,7 +1858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxTime: 1.7
   heightRange: 4.5
-  thePipe: {fileID: 2848835360499209021, guid: 91842350dfd838f4f9ba0fbd7509003d, type: 3}
+  thePipe: {fileID: 2848835360499209021, guid: 6606dbfe982fa7948916411124859c59, type: 3}
   useRandomPipe: 0
   pipeVariants: []
 --- !u!4 &1136076706
