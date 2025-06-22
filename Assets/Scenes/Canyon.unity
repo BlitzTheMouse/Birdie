@@ -1766,7 +1766,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc84ce65429f1204b8638a2d85a6031f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   destroyX: -30
   spawnCount: 1
 --- !u!212 &1426344386

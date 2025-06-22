@@ -45,4 +45,10 @@ public class Scoring : MonoBehaviour
         currentScoreText.text = score.ToString();
         UpdateHighScore();
     }
+
+    public void ResetHighScoreUI()
+    {
+        highScoreText.text = "0";
+    }
+
 }
